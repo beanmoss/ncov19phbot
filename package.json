@@ -1,0 +1,23 @@
+{
+  "name": "ncov19phbot",
+  "version": "1.0.0",
+  "description": "Messenger Bot service for NCov19 Ph",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:beanmoss/ncov19phbot.git"
+  },
+  "author": "robel",
+  "license": "ISC",
+  "dependencies": {
+    "bootbot": "^1.0.16",
+    "cache-manager": "^3.2.0",
+    "cheerio": "^1.0.0-rc.3",
+    "cheerio-tableparser": "^1.0.1",
+    "dotenv": "^8.2.0",
+    "request": "^2.88.2"
+  }
+}
